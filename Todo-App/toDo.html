@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redwan Hossain</title>
+    <link rel="stylesheet" href="todo.css">
+    <link rel="stylesheet" href="../cssFolder/footer.css">
+    <link rel="stylesheet" href="../cssFolder/fordesktop.css">
+
+    <style>
+        @media (max-width:770px) {
+            #container{
+               display: flex;
+               flex-direction: column;
+               width: auto;
+               height: auto;
+            }
+
+            #devider{
+                display: flex;
+                flex-direction: column;
+            }
+
+           .TaskForm{
+            width:auto;
+           }
+
+           div#todoListBox, .comDiv {
+                width: 350px;
+                background: white;
+                float: left;
+                margin-left: 86px;
+                margin-top: 36px;
+                border: 1px solid #a5a3a3;
+                margin: auto;
+                margin-top: 10px;
+                margin-bottom: 10px;
+         }
+
+         
+           .comDiv{
+            width: auto;
+            margin: auto;
+            margin-bottom: 10px;
+           }
+
+          
+
+        }
+    </style>
+
+</head>
+<body>
+    
+  
+     <div id="container">
+
+        <div>
+            <h2 id="titleHead">TO DO APP</h2>
+        </div>
+
+    <form class="TaskForm">
+
+        <label for="new-task">Add New Task</label>
+        <input type="text" id="new-task" placeholder="Input Task">
+        <input type="submit" value = "Add Task" id="addTask">
+
+        </form>
+   
+        <div id="devider">
+
+            <div id="todoListBox">
+    
+                <h2>INCOMPLETE TASKS</h2>
+                <hr class="bor">
+            
+                <ul id="items">
+            
+                    <li><input type="checkbox"> <label>TaskName 1</label></li>
+            
+                    <li><input type="checkbox"> <label>TaskName 2</label></li>
+                    
+                    <li><input type="checkbox"> <label>TaskName 3</label></li>
+                
+                   </ul>
+            
+               </div>
+            
+               <div class="comDiv">
+                <h2>COMPLETE TASK</h2>
+                <hr>
+                <ul>
+                    <li>Task Name <button class="deleteTask">delete</button></li>
+                </ul>
+               </div>
+
+        </div>
+   
+ 
+
+     </div>
+
+     <footer>
+
+        <div class="Footer">
+           <div class="footer_menu col-6">
+               
+                   <a href="../index.html">Home</a>
+                   <a href="../index.html#about-me-id">About</a>
+                   <a href="../index.html#skill_id">Skills</a>
+                   <a href="../index.html#contatc_me">Contact</a>
+         
+           </div>
+           <div class="footer_desc col-6">
+               &copy; Redwan 2023. Developed with <span style="color: red; font-size: 1.5rem;">♥</span> by Redwan Hossain
+           </div>
+        </div>
+
+    </footer>
+
+    <script src="toDo.js" type="text/javascript"></script>
+</body>
+</html>

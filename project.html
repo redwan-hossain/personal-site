@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redwan Hossain</title>
+    <link rel="stylesheet" href="cssFolder/footer.css">
+    <link rel="stylesheet" href="cssFolder/fordesktop.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: #333;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        header a{
+            text-decoration: none;
+            color: white;
+        }
+
+        section {
+            padding: 2em;
+        }
+
+        .projects {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+           
+        }
+
+        .project {
+            width: 300px;
+            margin: 1em;
+            border: 1px solid #ddd;
+            padding: 1em;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            background-color: #bfbfbf;
+            border-radius: 5px;
+            transition: 0.5s;
+        }
+
+        .project a h3{
+            color: black;
+            
+        }
+
+    
+
+        .project:hover{
+            transform: scale(1.1);
+        }
+
+        .project p{
+                color: green;
+            }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+        }
+       
+        @media (max-width: 600px) {
+            .projects{
+                text-align: center;
+            }
+            .project {
+                width: 100%;
+            }
+
+            .project a{
+                text-decoration: none;
+            }
+
+            .project p{
+                color: green;
+            }
+
+            section h2{
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="index.html"><h1>Redwan Hossain</h1></a>
+    </header>
+
+    <section>
+        <h2>Some Projects</h2>
+   
+    </section>
+
+    <section>
+
+        <div class="projects">
+            <div class="project">
+                
+                <a href="./Blog site/main.html">
+                    <h3>Project 1</h3>
+                <p>Blog Site.</p>
+                <!-- Add more details or links as needed -->
+                </a>
+            </div>
+
+            <div class="project">
+              <a href="Todo-App/toDo.html">
+                <h3>Project 2</h3>
+                <p>Normal Todo-Application.</p>
+                
+                <!-- Add more details or links as needed -->
+              </a>
+            </div>
+
+            <div class="project">
+                <a href="./check-vowel/index.html">
+                  <h3>Project 3</h3>
+                  <p>Vowel Checker from Any Sentence.</p>
+                  <!-- Add more details or links as needed -->
+                </a>
+              </div>
+
+             
+
+
+              <div class="project">
+                <a href="./FizzBuzz Number/fizzBuzz.html">
+                  <h3>Project 4</h3>
+                  <p>3 and 5 number divisibles.</p>
+                  <!-- Add more details or links as needed -->
+                </a>
+              </div>
+
+              <div class="project 5">
+                <a href="./leap year/index.html">
+                  <h3>Project </h3>
+                  <p>Leap year calculator.</p>
+                  <!-- Add more details or links as needed -->
+                </a>
+              </div>
+        </div>
+    </section>
+
+    <footer>
+
+        <div class="Footer">
+           <div class="footer_menu col-6">
+               
+                   <a href="index.html">Home</a>
+                   <a href="index.html#about-me-id">About</a>
+                   <a href="index.html#skill_id">Skills</a>
+                   <a href="index.html#contatc_me">Contact</a>
+         
+           </div>
+           <div class="footer_desc col-6">
+               &copy; Redwan 2023. Developed with <span style="color: red; font-size: 1.5rem;">♥</span> by Redwan Hossain
+           </div>
+        </div>
+
+    </footer>
+</body>
+</html>

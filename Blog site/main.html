@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blog site</title>
+    <!-- css link -->
+    <link rel="stylesheet" href="./style/main.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:wght@100&family=Handlee&family=Italianno&family=Montserrat&family=Roboto+Condensed:wght@100;300;500&family=Roboto:wght@100;400;500;700;900&family=Satisfy&display=swap" rel="stylesheet">
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+<body>
+   
+
+    <div id="container">
+        
+        <header id="blog_header">
+            <figure class="logo-figure">
+                <i class="logo fab fa-autoprefixer"></i>
+            </figure>
+
+            <i class="fa-solid fa-bars fa-4x" id="menu_icon"></i>
+    
+            <nav aria-label="Main Menu" id="menu_nav" class="hidden">
+                <ul role="menubar" aria-label="Main Menu">
+                    <li role="none"><a href="../index.html" class="nav-link" role="meuniItem">Home</a></li>
+                    
+                    <li role="none"><a href="#" class="nav-link" role="meuniItem">Archives</a></li>
+    
+                    <li role="none"><a href="../index.html#about-me-id" class="nav-link" role="meuniItem">About</a></li>
+    
+                    <li role="none"><a href="#" class="nav-link" role="meuniItem">Blog Posts</a></li>
+    
+                    <li role="none"><a href="../index.html#contatc_me" class="nav-link" role="meuniItem">Contact</a></li>
+    
+    
+                </ul>
+            </nav>
+
+        </header>
+
+        <main>
+
+            <!-- banner section start here -->
+            <section id="blog-banner-section">
+                <article>
+                    <h1 class="banner-heading">Web Development</h1>
+                    <p class="banner-desc text-justify">I believe Web development is always fun. We should learn Web development for a bright career. I have Started learning Web development 1 years ago and still learning. I started with HTML, CSS, JS and now I'm learning python. I must say web development demands more patience and consistency</p>
+                </article>
+
+                <aside>
+                    <img class="banner-img" src="./blogimage/banner_image.jpg" alt="cover photo">
+                </aside>
+            </section>
+            <!-- banner section end here -->
+
+            <!-- about me section start here -->
+            <section id="blog-about" class="section-center">
+
+                <h2 class="section-heading text-white">About Me</h2>
+
+                <div class="card-container">
+                    <div class="card">
+                        <h3 class="card-header">Education</h3>
+                        <p class="card_desc">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi perferendis adipisci asperiores obcaecati velit repellat esse, qui fugiat temporibus sequi, hic recusandae? Corrupti eos illo quisquam placeat error alias ut?
+                        </p>
+                        <button type="submit" class="card-btn BTN" onclick="showAlert(this)">Read More</button>
+                    </div>
+
+                    <div class="card">
+                        <h3 class="card-header">Education</h3>
+                        <p class="card_desc">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi perferendis adipisci asperiores obcaecati velit repellat esse, qui fugiat temporibus sequi, hic recusandae? Corrupti eos illo quisquam placeat error  ut?
+                        </p>
+                        <button type="submit" class="card-btn BTN" onclick="showAlert(this)">Read More</button>
+                    </div>
+
+                    <div class="card">
+                        <h3 class="card-header">Education</h3>
+                        <p class="card_desc">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi perferendis adipisci asperiores obcaecati velit repellat esse, qui fugiat temporibus sequi, hic recusandae? Corrupti eos illo quisquam placeat error alias ut?
+                        </p>
+                        <button type="submit" class="card-btn BTN" onclick="showAlert(this)">Read More</button>
+                    </div>
+                </div>
+
+            </section>
+
+            <!-- about me section end here -->
+
+            <!-- archives section start here -->
+
+            <section id="archives" class="section-center">
+                <h2 class="section-heading">Archives</h2>
+                <div class="archive-container">
+                    <ul class="archive-container-lists">
+                        <li class="archive-container-list"><img class="archives-image" src="blogimage/keyboard.jpg" alt="image1"></li>
+
+                        <li class="archive-container-list"><img class="archives-image" src="blogimage/laptop2.jpg" alt="image1"></li>
+
+                        <li class="archive-container-list"><img class="archives-image" src="blogimage/laptop3.jpg" alt="image1"></li>
+
+                        <li class="archive-container-list"><img class="archives-image" src="blogimage/laptop4.jpg" alt="image1"></li>
+
+                        <li class="archive-container-list"><img class="archives-image" src="blogimage/laptop5.jpg" alt="image1"></li>
+
+
+                        
+                    </ul>
+                </div>
+            </section>
+            <!-- archives section end here -->
+
+
+            <!-- blog section start here -->
+
+            <section id="blog-posts" class="section-center">
+
+                <h2 class="section-heading blog-posts-heading">Blog Posts</h2>
+
+                <div class="blog-post">
+                    <aside class="blog-post-aside">
+                        <img class="blog-img" src="blogimage/desk.jpg" alt="laptop">
+                    </aside>
+                    <article class="blog-content">
+                        <h2 class="blog-heading">Blog1</h2>
+                        <h3 class="blog-sub-headig">Web Developer</h3>
+                        <p class="blog-desc">
+                            Junior Web Developre specializing in front end development.
+                        </p>
+                        <button type="submit" class="blog-btn BTN" onclick="showLearnAlert(this)">learn More</button>
+                    </article>
+                </div>
+
+                <div class="blog-post">
+                    <aside class="blog-post-aside">
+                        <img class="blog-img" src="blogimage/blogger-2838945_1280.jpg" alt="laptop">
+                    </aside>
+                    <article class="blog-content">
+                        <h2 class="blog-heading">Blog2</h2>
+                        <h3 class="blog-sub-headig">Sub heading</h3>
+                        <p class="blog-desc">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore aperiam facere facilis autem. Porro maiores quibusdam similique eum distinctio? Numquam, maxime saepe. Ipsam tenetur expedita dicta consequatur tempora ex exercitationem.
+                        </p>
+                        <button type="submit" class="blog-btn BTN" onclick="showLearnAlert(this)">learn More</button>
+                    </article>
+                </div>
+
+                <div class="blog-post">
+                    <aside class="blog-post-aside">
+                        <img class="blog-img" src="blogimage/coding-4570799_1280.jpg" alt="laptop">
+                    </aside>
+                    <article class="blog-content">
+                        <h2 class="blog-heading">Blog3</h2>
+                        <h3 class="blog-sub-headig">Sub heading</h3>
+                        <p class="blog-desc">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore aperiam facere facilis autem. Porro maiores quibusdam similique eum distinctio? Numquam, maxime saepe. Ipsam tenetur expedita dicta consequatur tempora ex exercitationem.
+                        </p>
+                        <button type="submit" class="blog-btn BTN" onclick="showLearnAlert(this)">learn More</button>
+                    </article>
+                </div>
+            </section>
+
+            <!-- blog section end here -->
+
+             <!-- contact section start here -->
+
+             <section id="contact-section" class="section-center">
+                <h2 class="section-heading text-white">Contact Me</h2>
+                <form action="" id="contact-form">
+                    <div class="form-control">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" required autocomplete="name" placeholder="input name">
+                    </div>
+
+                    <div class="form-control">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" required autocomplete="name" placeholder="input Email">
+                    </div>
+
+                    <div class="form-control">
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" placeholder="message"></textarea>
+                      </div>  
+
+                        <div class="form-control form-btn-field">
+                           <button type="submit" class="BTN contact-btn" onclick="Submit(this)">submit</button>
+                    </div>
+                </form>
+             </section>
+            <!-- contact section end here -->
+
+           </main>
+
+              
+              <footer id="footer_section" class="section-center">
+                <p class="copyright-text">
+                   Copyright &copy; by Redwan Hossain. All right reserved
+                </p>
+
+                <nav aria-label="Footer Menu">
+                    <ul role="menubar2" id="menubar2" aria-label="Footer Menu">
+                        <li role="none"><a href="https://www.facebook.com/md.redwanhossain.3110" target="_blank" role="meuniItem"> <i class="fa-brands fa-facebook footer-icon"></i> </a></li>
+                        
+                        <li role="none"><a href="https://github.com/redwan-hossain" target="_blank" role="meuniItem"> <i class="fa-brands fa-github footer-icon"></i> </a></li>
+        
+                        <li role="none"><a href="https://www.linkedin.com/in/rfredwan-hossain2003/" target="_blank" role="meuniItem"> <i class="fa-brands fa-linkedin footer-icon"></i> </a></li>
+
+                    </ul>
+                </nav>
+              </footer>
+    </div>
+
+    <script src="index.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@100;300;500&display=swap');
+        html{scroll-behavior: smooth;}
+        *{margin: 0px; padding: 0px;}
+
+        body{
+            background-color: #eee;
+            
+
+        }
+
+        .container{
+            max-width:1000px;
+            background-color:#e4f9f5;
+            margin: auto;
+            padding: 20px;
+        }
+
+        h1,h2,h3,h4,h5,h6 {
+            color:#11999e ;
+            font-family: 'Roboto Condensed', sans-serif;
+        }
+
+        header{
+            font-family: 'Roboto Condensed', sans-serif;
+        }
+
+        .profileImage{
+            width: 100px;
+            height:100px;
+            border: 3px solid white; 
+            border-radius: 50%;
+            float: left;
+        }
+
+        .headerBio{
+            float: left;
+            padding: 30px;
+        }
+
+        .head_contact{
+            float: right;
+            padding: 30px;
+        }
+
+        .head_contact a{
+            text-decoration: none;
+            color:teal;
+            font-weight: bold;
+        }
+
+        .head_contact a:hover{
+            text-decoration:underline;
+            color: tomato;
+        }
+
+        .clear_div{
+            clear: both;
+        }
+
+        hr{
+            border: 3px solid black;
+            width: 100%;
+            border-bottom: none;
+            margin: 20px auto;
+        }
+
+        /* personal section start */
+        #personal_section{
+            margin-bottom: 30px;
+        }
+
+        .persolaContent{}
+
+        .leftDiv{
+            width: 30%;
+            float: left;
+            font-family: 'Roboto Condensed', sans-serif;
+        }
+
+        .rightDiv{
+            width: 70%;
+            float: left;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .common_hr{
+            border: 1px solid black;
+            border-bottom: none;
+            width: 100%;
+            margin: 20px auto;
+        }
+
+        /*footer desing*/
+        .bottom_conatainer{
+            background-color: black;
+            text-align: center;
+            padding: 10px;
+        }
+        .bottom_conatainer a{
+            color: white;
+            text-decoration: none;
+            margin: 20px;
+            font-family: 'Roboto Condensed', sans-serif;
+        }
+        .bottom_conatainer a:hover{
+            text-decoration: underline;
+            text-decoration-color: green;
+            transition: 0.5s;
+        }

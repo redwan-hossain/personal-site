@@ -1,0 +1,29 @@
+.Footer{
+    background-color: black;
+    color:white;
+    padding: 20px;
+    text-align: center;
+    font-size: 0.8rem;
+
+  }
+
+  .footer_menu a{
+    display: block;
+    margin: 15px 0px;
+    font-size: 1rem;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+    font-family: ;
+  }
+
+  .footer_menu a:hover{
+    color: gray;
+  }
+
+  .Footer::after{
+    display: table;
+    content: '';
+    clear: both;
+ }
+/* footer section design end here  */

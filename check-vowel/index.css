@@ -1,0 +1,30 @@
+
+#alignDiv{
+    text-align: center;
+    margin-top: 50px;
+    background: #e2a1a1;
+    width: 300px;
+    height: 200px;
+    margin: auto;
+  
+}
+
+button{
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    background: #505c42;
+    color: #ffffff;
+}
+
+#inputID{
+
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+   
+}
+
+#amne{color: red;margin: auto;}
